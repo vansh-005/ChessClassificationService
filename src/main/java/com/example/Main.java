@@ -1,6 +1,9 @@
 package com.example;
 
 import com.example.parse_module.*;
+import com.example.service_3.*;
+import com.example.service_3.*;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -30,7 +33,10 @@ public class Main {
         Position p1 = incParser.applyMove(state, "e4");
         System.out.println(p1);
 
-        Position p2 = incParser.applyMove(state, "e5");
+        Position p2 = incParser.applyMove(state, "d5");
         System.out.println(p2);
+
+
+
     }
 }

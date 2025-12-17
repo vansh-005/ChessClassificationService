@@ -1,5 +1,6 @@
 package com.example.engine_annotation;
 
+
 public final class TopLine {
 
     private final int id;
@@ -12,6 +13,12 @@ public final class TopLine {
         this.depth = depth;
         this.evaluation = evaluation;
         this.moveUci = moveUci;
+    }
+    public int getId() {
+        return id;
+    }
+    public int getDepth() {
+        return depth;
     }
     @Override
     public String toString() {
